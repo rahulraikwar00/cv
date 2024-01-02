@@ -28,7 +28,7 @@ export const RESUME_DATA = {
     "Full Stack Engineer focused on building products with extra attention to details",
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  avatarUrl: "https://github.com/rahulraikwar00/cv/assets/54519734/93cf387d-3e1d-4bbd-8fcc-90603c630121",
   personalWebsiteUrl: "",
   contact: {
     email: "rahulraikwar.cse@gmail.com",
