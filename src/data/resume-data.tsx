@@ -1,4 +1,5 @@
 import MonitoLogo from "../images/logos/monito.svg";
+import Mypic from "../images/logos/mypic.jpg"
 import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { XIcon } from "@/components/icons/XIcon";
@@ -12,7 +13,7 @@ export const RESUME_DATA = {
     "Software Engineer focused on building products with extra attention to details",
   summary:
     "As a Computer Science graduate, I led the development of an Address Syncing System at Hack the Mountain- MLH and created an Aadhaar Data Vault at Smart India Hackathon 2022. Honors include being a Grand Finalist in Smart India Hackathon 2022 and regionalist in ICPC 2020",
-  avatarUrl: "https://github.com/rahulraikwar00/cv/assets/54519734/93cf387d-3e1d-4bbd-8fcc-90603c630121",
+  avatarUrl: "https://github.com/rahulraikwar00/cv/src/images/logos/mypic.jpg",
   personalWebsiteUrl: "lunosis.xyz",
   contact: {
     email: "rahulraikwar.cse@gmail.com",
