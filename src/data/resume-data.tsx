@@ -22,17 +22,15 @@ import { XIcon } from "@/components/icons/XIcon";
 export const RESUME_DATA = {
   name: "Rahul Raikwar",
   initials: "",
-  location: "MP, india, ",
+  location: "MP, India",
   locationLink: "https://www.google.com/maps/place/india",
-  about:
-    "Full Stack Engineer focused on building products with extra attention to details",
-  summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+  about: "Full Stack Engineer focused on building products with extra attention to details",
+  summary: "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
   avatarUrl: "https://github.com/rahulraikwar00/cv/assets/54519734/93cf387d-3e1d-4bbd-8fcc-90603c630121",
   personalWebsiteUrl: "",
   contact: {
     email: "rahulraikwar.cse@gmail.com",
-    tel: "+917223888360",
+    tel: "+91-722-3888-360",
     social: [
       {
         name: "GitHub",
@@ -44,235 +42,111 @@ export const RESUME_DATA = {
         url: "https://www.linkedin.com/in/rahul-raikwar/",
         icon: LinkedInIcon,
       },
-      {
-        name: "X",
-        url: "https://x.com/rahulraikwar00",
-        icon: XIcon,
-      },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
-    },
-  ],
-  work: [
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      school: "Sagar Institute of Science and Technology, Bhopal",
+      degree: "Bachelor of Technology in Computer Science Engineering",
+      start: "July 2019",
+      end: "June 2023",
+      details: "CGPA: 7.64\nRelevant Courses: Operating Systems, Data Structures, Algorithms, Artificial Intelligence, Machine Learning, Blockchain, Computer Networks, DBMS, Information Retrieval, Theory of Computation, Software Tools & Technology",
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
+    "C",
+    "C++",
     "Python",
-    "ML",
-    "WebRTC",
+    "JavaScript",
+    "HTML",
+    "SQL",
+    "Bash",
+    "Java",
+    "TensorFlow",
+    "Keras",
+    "Node.js",
+    "FastAPI",
+    "Django",
+    "GIT",
+    "Docker",
+    "MySQL",
+    "SQL Server Management Studio",
+    "Linux",
+    "Web",
+    "Windows",
+    "Arduino",
+    "AWS",
+    "Firebase",
+    "Leadership",
+    "Event Management",
+    "Writing",
+    "Public Speaking",
+    "Time Management",
+  ],
+  work: [
+    {
+      company: "Hack the Mountain- MLH",
+      link: "#",
+      badges: ["Software Engineer"],
+      title: "Project Title: Address syncing system",
+      start: "Sep 2022",
+      end: "Onsite",
+      description: "Developed a FastAPI Microservice integrated with Twilio for real-time synchronization of addresses. Implemented secure authentication mechanisms for agencies, ensuring data integrity and confidentiality. Engineered acknowledgment messages for users, enhancing transparency in communication for address updates.",
+      techStack: ["FastAPI", "Twilio", "Python", "MySQL"],
+      projectLink: "https://github.com/rahulraikwar00/AddressSync",
+    },
+    {
+      company: "Smart India Hackathon 2022",
+      link: "#",
+      badges: ["Software Engineer"],
+      title: "Project Title: Aadhaar Data Vault",
+      start: "Aug 2022",
+      end: "Onsite",
+      description: "Developed a software package for hassle-free creation and installation of Aadhaar Data Vault. Implemented OAuth and JWT for authentication and authorization. Automated the generation of a complete database architecture.",
+      techStack: ["Python", "Flask", "OAuth", "JWT"],
+      projectLink: "https://github.com/rahulraikwar00/ADvault",
+    },
+    {
+      company: "Sagar Institute of Science and Technology (SISTec)",
+      link: "#",
+      badges: ["Teaching Assistant for Blockchain"],
+      title: "Blockchain Fundamentals",
+      start: "Feb 2023",
+      end: "May 2023",
+      description: "Assisted students in grasping foundational blockchain concepts and facilitated discussions on smart contract theory.",
+    },
   ],
   projects: [
     {
-      title: "Consultly",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
-      ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
+      title: "Testcoin- Python Blockchain Implementation",
+      techStack: ["Python", "Blockchain"],
+      description: "Developed a simple blockchain in Python, emphasizing a hashed ledger and distributed nodes. The project’s primary goal is to elucidate the foundational structure of a blockchain.",
+      projectLink: "https://github.com/rahulraikwar00/Blockchain1",
+    },
+  ],
+  positionsOfResponsibility: [
+    {
+      title: "Developer Student Club, Tech Lead at SISTec",
+      description: "As Tech Lead, devised and curated practice coding tests tailored for placement readiness. Fostered effective communication between participating companies and students, enhancing the overall reach and impact of the placement cell. (Apr 2021- Apr 2022)",
+    },
+  ],
+  openSourceContributions: [
+    {
+      title: "Octoberfest 2023",
+      description: "Active participant in Octoberfest, contributing to various open source projects and fostering collaboration within the developer community and help them in clarification of issues and Pull Requests.",
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
+      title: "Rotten-Scripts Contributions",
+      description: "Addressed Pull Request 936 and Pull Request 951, fixing Issue 923 and Issue 927 in the Rotten-Scripts repository.",
+      projectLink: "#",
     },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+  ],
+  honorsAndAwards: [
+    "Smart India Hackathon 2022 Grand Finalist",
+    "ICPC 2020 regionalist",
+    "Qualified for Google Code Jam Round 2-2021",
+    "38th rank out of 23000+ participants in Code Manthan",
+    "1240 global rank in Codechef December Challenge 2020 Division 2",
+    "Solved over 300+ coding problems across different platforms. 190+ leetcode link",
   ],
 } as const;
