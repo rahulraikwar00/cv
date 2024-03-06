@@ -1,4 +1,4 @@
-![cv](https://github.com/BartoszJarocki/cv/assets/1017620/79bdb9fc-0b20-4d2c-aafe-0526ad4a71d2)
+![cv]()
 
 # Minimalist CV
 
@@ -11,7 +11,7 @@ Built with Next.js and shadcn/ui, deployed on Vercel.
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/BartoszJarocki/cv.git
+    git clone https://github.com/Rahulraikwar00/cv.git
     ```
 3. Install dependencies:
 
